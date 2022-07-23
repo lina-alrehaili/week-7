@@ -1,0 +1,160 @@
+
+video {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+#header-container{ 
+	color: white;
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	font-family: 'Raleway', sans-serif;
+	background-image: linear-gradient(#DDA0DD, #663399,#DDA0DD);
+}
+
+.header-content{
+	display: flex;
+	align-items: center;
+	margin: 10px;
+	margin-left:85px;
+	margin-right:85px;
+}
+
+.head-container{
+	padding: 15px;
+	font-family: Century Gothic;
+	background-color:#DDA0DD;
+}
+.border-color{
+border:5px solid #DDA0DD;
+}
+
+
+
+/* card details start  */
+section{
+    padding: 30px 0;
+}
+.details-card {
+	position: relative;
+}
+.row{
+	margin-bottom: 40px;
+}
+.card-content {
+	position: relative;
+	background: #ffffff;
+	border: 4px;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+}
+
+.card-img {
+	position: relative;
+	overflow: hidden;
+	border-radius: 0;
+	z-index: 1;
+}
+
+.card-img img {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+.img-mini {
+	width: 50px;
+	height: 50px;
+	display: block;
+}
+.card-desc {
+	position: relative;
+	padding: 1.25rem;
+}
+
+
+.card-desc p {
+	color: #747373;
+	font-weight: 400;
+	font-size: 1em;
+	line-height: 1.5;
+	margin: 0px;
+	margin-bottom: 20px;
+	padding: 0;
+	font-family: 'Raleway', sans-serif;
+}
+.btn-card{
+	background-color: white;
+	color: black;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+    padding: .84rem 2.14rem;
+    font-size: .81rem;
+    -webkit-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+    -o-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+    margin: 0;
+    border: 0;
+    -webkit-border-radius: .125rem;
+    border-radius: .125rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    white-space: normal;
+    word-wrap: break-word;
+    color: #fff;
+}
+.btn-card:hover {
+    background: #E8E8E8	;
+}
+a.btn-card {
+    text-decoration: none;
+    color: #747373;
+}
+p{
+	margin-bottom: 30px;
+}
+.tech-div{
+	margin-top: 15px;
+	display: flex;
+	justify-content: space-evenly;
+}
+.mid-point{
+	margin-top: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.btn-mid{
+	background-color: #663399;
+	color: white;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+    padding: .84rem 2.14rem;
+    font-size: .81rem;
+    -webkit-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+    -o-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+    margin: 0;
+    border: 0;
+    -webkit-border-radius: .125rem;
+    border-radius: .125rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    white-space: normal;
+    word-wrap: break-word;
+    color: #fff;
+}
+.btn-mid:hover{
+    background: #DDA0DD	;
+}
+a.btn-mid{
+    text-decoration: none;
+    color: white;
+}
